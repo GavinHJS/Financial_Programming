@@ -1,6 +1,8 @@
 #include <iostream>
 #include <vector>
 #include <numeric>
+#include <queue>
+#include <functional>
 
 template <class T> void print(const std::vector<T>& l) {
 	std::cout << "Size of the vector: " << l.size() << std::endl ;
@@ -40,4 +42,21 @@ template <class T> double vectorProduct(const std::vector<T>& m, const std::vect
 	double product = std::inner_product(m.begin(), m.end(), n.begin(), 0);
 	return product;
 }
+
+void printQueue ()
+{
+	std::priority_queue<int, std::vector<int>> myQue;
+	myQue.push(20);
+	myQue.push(20);
+	myQue.push(20);
+	myQue.push(20);
+	std::cout << "Size of the queue: " << myQue.size();
+
+	while (!myQue.empty())
+	{
+		std::cout << myQue.top() << std::endl;
+		myQue.pop();
+	}
+}
+
 
