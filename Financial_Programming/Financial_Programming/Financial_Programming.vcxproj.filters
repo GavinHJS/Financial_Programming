@@ -21,7 +21,7 @@
     <ClCompile Include="Containers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="STLFinancialEngineering.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -30,6 +30,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Containers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="STLFinancialEngineering.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

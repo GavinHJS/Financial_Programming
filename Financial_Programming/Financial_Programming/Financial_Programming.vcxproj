@@ -140,11 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Containers.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="STLFinancialEngineering.cpp" />
     <ClCompile Include="Template.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Containers.h" />
+    <ClInclude Include="STLFinancialEngineering.h" />
     <ClInclude Include="Template.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

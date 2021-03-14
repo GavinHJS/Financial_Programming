@@ -1,3 +1,29 @@
-﻿  main.cpp
-D:\Financial Pricing with C++\Financial_Programming\Financial_Programming\main.cpp(4,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+﻿  STLFinancialEngineering.cpp
+D:\Financial Pricing with C++\Financial_Programming\Financial_Programming\STLFinancialEngineering.cpp(45,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\numeric(141,26): warning C4244: '=': conversion from '_Ty2' to '_Ty', possible loss of data
+          with
+          [
+              _Ty2=double
+          ]
+          and
+          [
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\numeric(151): message : see reference to function template instantiation '_Ty std::inner_product<_InIt1,_InIt2,int,std::plus<void>,std::multiplies<void>>(_InIt1,_InIt1,_InIt2,_Ty,_BinOp1,_BinOp2)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt1=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _InIt2=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _BinOp1=std::plus<void>,
+              _BinOp2=std::multiplies<void>
+          ]
+D:\Financial Pricing with C++\Financial_Programming\Financial_Programming\STLFinancialEngineering.cpp(40): message : see reference to function template instantiation '_Ty std::inner_product<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<double>>>,std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<double>>>,int>(const _InIt1,const _InIt1,const _InIt2,_Ty)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt1=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _InIt2=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<double>>>
+          ]
+D:\Financial Pricing with C++\Financial_Programming\Financial_Programming\STLFinancialEngineering.cpp(49): message : see reference to function template instantiation 'double vectorProduct<double>(const std::vector<double,std::allocator<double>> &,const std::vector<double,std::allocator<double>> &)' being compiled
   Financial_Programming.vcxproj -> D:\Financial Pricing with C++\Financial_Programming\Debug\Financial_Programming.exe
