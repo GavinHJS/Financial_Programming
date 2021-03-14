@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\Financial Pricing with C++\Financial_Programming\Financial_Programming\main.cpp(4,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Financial_Programming.vcxproj -> D:\Financial Pricing with C++\Financial_Programming\Debug\Financial_Programming.exe
